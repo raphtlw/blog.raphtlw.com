@@ -8,12 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "evergreen",
+    pageTitle: "evergreen.",
     pageTitleSuffix: "Raphael's Evergreen Notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      host: "analytics.raphtlw.com",
+      websiteId: "4be7d6c9-0d64-4e2a-a2db-56743d620f74",
     },
     locale: "en-GB",
     baseUrl: "blog.raphtlw.com",
@@ -23,7 +25,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Inter Display",
+        header: "Inter Tight",
         body: "Hanken Grotesk",
         code: "JetBrains Mono",
       },
