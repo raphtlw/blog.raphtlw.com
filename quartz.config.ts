@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "umami",
-      host: "analytics.raphtlw.com",
+      host: "https://analytics.raphtlw.com",
       websiteId: "4be7d6c9-0d64-4e2a-a2db-56743d620f74",
     },
     locale: "en-GB",
